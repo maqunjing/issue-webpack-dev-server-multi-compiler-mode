@@ -1,0 +1,16 @@
+{
+  "name": "issue-webpack-dev-server-multi-compiler-mode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.multi.compiler.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.multi.compiler.config.js --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
